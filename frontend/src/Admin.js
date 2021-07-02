@@ -75,7 +75,7 @@ const Planing = () => {
         color:'#4000FF',
         marginBottom: 60,
          }}>
-       Create
+        Créer un rendez vous
       </Text>
       <SafeAreaView>
         <TextInput
@@ -105,8 +105,8 @@ const Planing = () => {
         />
         <DatePicker
           style={styles.datePickerStyle2}
-          date={datFin} // Initial date from state
-          mode="date" // The enum of date, date time and time
+          date={datFin} 
+          mode="date" 
           placeholder="select date"
           format="DD-MM-YYYY"
          
